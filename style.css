@@ -10,11 +10,12 @@
 	font-size: 16px;
 }
 
-
+main .container{
+	padding-left: 16px;
+}
 
 body{
 	font-family: Arial, Helvetica, sans-serif;
-	padding-left: 16px;
 }
 
 .header{
@@ -26,6 +27,7 @@ body{
 
 img{
 	width: 100%;
+	vertical-align: middle;
 }
 
 h1{
@@ -36,8 +38,11 @@ h1{
 
 .author{
 	width: auto;
-	font-size: 14px;
 	margin-bottom: 24px;
+}
+
+.author p{
+	font-size: 14px;
 }
 
 .date-section{
@@ -88,8 +93,11 @@ figcaption{
 	margin-bottom: 30px;
 }
 
+video{
+	vertical-align: middle;
+}
 .content p{
-	padding-bottom: 24px;
+	margin-bottom: 25px;
 }
 
 ul{
@@ -133,4 +141,9 @@ h2{
 
 .bold{
 	font-weight: bold;	
+}
+
+.material-icons-outlined{
+	font-size: 18px;
+	align-content: center;
 }
